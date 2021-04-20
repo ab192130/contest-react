@@ -6,9 +6,9 @@ import AddParticipant from '../components/AddParticipant';
 
 const Home = () => {
     const [participants, setParticipants] = useState([
-        { email: 'foobar@gmail.com' },
-        { email: 'test@gmail.com' },
-        { email: 'johndoe@example.com' },
+        { email: 'kamran@gmail.com' },
+        { email: 'sahib@gmail.com' },
+        { email: 'suleyman@example.com' },
         { email: 'mamed@memmedov.com' },
     ]);
 
