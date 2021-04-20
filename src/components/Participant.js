@@ -4,7 +4,7 @@ const Participant = ({ data, onDelete }) => {
     return (
         <div className="flex flex-wrap items-center group justify-between participant px-5 py-3 cursor-pointer hover:bg-gray-100 rounded-full">
             <div className="flex flex-wrap items-center">
-                <img src={`https://i.pravatar.cc/150?u=${data.email}`} className="w-7 h-7 mr-3 rounded-full select-none" alt="" />
+                <img src={`https://i.pravatar.cc/150?u=${data.email}`} className="bg-gray-100 w-7 h-7 mr-3 rounded-full select-none" alt="" />
                 <div className="text-lg">{data.email}</div>
             </div>
             <div className="text-gray-300 hover:text-gray-500 hover:bg-white hover:shadow-md p-1 rounded-full select-none" onClick={() => onDelete(data.email)}>
